@@ -1,4 +1,4 @@
-# Генератор графа зависимостей для пакетов Alpine Linux
+![depend](https://github.com/user-attachments/assets/a64c824b-909e-4956-aa22-ba46e7e68718)# Генератор графа зависимостей для пакетов Alpine Linux
 
 Этот проект предоставляет инструмент командной строки для генерации визуального графа зависимостей пакетов Alpine Linux. Он извлекает зависимости из репозитория пакетов Alpine Linux и визуализирует их с помощью Graphviz.
 
@@ -23,3 +23,11 @@
 - --graphviz-path: Путь к каталогу установки Graphviz (обязательно).
 
 ## Тестирование
+
+При данных параметрах:
+--package rsyslog
+--output-file depend
+--graphviz-path (Путь до программы)
+
+Программа показывает следующий результат
+![depend](https://github.com/user-attachments/assets/4b8ae81e-d16e-460b-ba6f-f3cfeb88eceb)
